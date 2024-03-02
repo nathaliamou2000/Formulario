@@ -1,0 +1,54 @@
+/* styles.css */
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  height: 15cm; /* Altura de la página */
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Estilos para los campos de entrada */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 500px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-orientation: upright;
+}
+
+/* Estilo para el botón */
+button {
+  background-color: #0074D9;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Media query para pantallas más pequeñas */
+@media screen and (max-width: 600px) {
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 90%; /* Reducir el ancho en pantallas pequeñas */
+  }
+}
